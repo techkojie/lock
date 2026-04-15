@@ -1,0 +1,7 @@
+import platform
+import datetime
+
+x = platform.system() + " " + platform.release() + " " + platform.version() + " " + platform.machine() + " " + platform.processor() + " " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+y = datetime.datetime.now().strftime("%m-%Y-%d %H:%M:%S")
+print(x)
+print(y)

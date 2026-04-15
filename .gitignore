@@ -1,0 +1,116 @@
+# =========================
+# Python cache / compiled
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Build / packaging output
+# =========================
+build/
+dist/
+bdist/
+wheels/
+*.egg-info/
+.eggs/
+
+# cx_Freeze common output
+exe.win32-*/
+exe.win-amd64-*/
+lib/
+frozen_application_license.txt
+
+# =========================
+# Installer / temporary package artifacts
+# =========================
+*.msi
+*.exe
+*.zip
+*.7z
+*.tar.gz
+
+# Keep this ONLY if you do not want installers committed.
+# Remove specific lines later if you intentionally want release files in Git.
+
+# =========================
+# Logs / runtime temp files
+# =========================
+*.log
+*.tmp
+*.temp
+*.bak
+
+# =========================
+# Test / coverage / tooling
+# =========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# =========================
+# IDE / editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# =========================
+# Secrets / local config
+# =========================
+.env
+.env.*
+*.env
+secrets.json
+secret.json
+config.local.py
+settings.local.py
+local_settings.py
+
+# Private keys / certificates
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+
+# =========================
+# SQLite / local databases
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Batch script outputs or custom temp folders
+# =========================
+tmp/
+temp/
+logs/
+output/
+
+# =========================
+# If you use these, ignore them
+# =========================
+node_modules/

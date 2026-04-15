@@ -1,0 +1,6 @@
+cryptography
+keyring
+pytest
+PyQt6
+pywin32
+watchdog
